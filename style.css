@@ -57,3 +57,39 @@ cursor: pointer;}
     cursor: pointer;
 }
 .btn:hover{background-color: rgb(167, 59, 39);}
+
+.about-title{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+}
+.about-txt-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.about-discriptions{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.about-btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about-btn:hover{background-color: rgb(167, 59, 39);}
+.about-img{
+    width: 300px;
+}
