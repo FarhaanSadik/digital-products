@@ -93,3 +93,52 @@ cursor: pointer;}
 .about-img{
     width: 300px;
 }
+.service-title{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+    color: white
+    ;
+}
+
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+.box:hover{background-color: #3c3c3c;}
+.icon{
+    width: 70px;
+}
+.detail-btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.digital-art{
+    padding: 10px;
+}
+.detail-btn:hover{background-color: rgb(167, 59, 39);}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.service-section{
+    background-image: url(./images/background.png),linear-gradient(45deg, #000000, #262626);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
